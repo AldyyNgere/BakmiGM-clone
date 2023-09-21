@@ -131,7 +131,7 @@
 }
 
 /* Smartphones (portrait) (ie: Galaxy 1) */
-@media only screen and (max-width: 321px) {
+@media only screen and (max-width: 375px) {
   html {
     font-size: 59.5%;
   }
@@ -151,6 +151,10 @@
     font-size: 1.5rem;
     display: inline-block;
     font-weight: 600;
+  }
+
+  .contact-btn-sidebar:hover {
+    background: #fff;
   }
 
   .hero-section {
