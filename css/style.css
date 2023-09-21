@@ -1,0 +1,152 @@
+/* Colors */
+:root {
+  --primary: #d73b32;
+  --primary-hover: #ac2f28;
+  --primary-light: #fbebeb;
+  --secondary: #fed100;
+  --text: #212121;
+}
+
+/* Header  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+  padding: 0 6%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  /* background-color: red; */
+}
+
+.logo img {
+  width: 75%;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 5rem;
+}
+
+.navbar-menu li a {
+  color: var(--text);
+  font-weight: 600;
+  font-size: 1.6rem;
+  transition: 0.2s ease;
+}
+
+.navbar-menu li a:hover {
+  color: var(--primary);
+}
+
+.contact-btn-sidebar {
+  font-family: inherit;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+  border-radius: 0.3rem;
+  background: var(--primary);
+  color: #fff;
+  font-size: 1.5rem;
+  display: none;
+}
+
+.contact-btn-sidebar:hover {
+  background: var(--primary-hover);
+}
+
+.navbar-btns-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-btns-box #contact-btn {
+  font-family: inherit;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+  border-radius: 0.3rem;
+  background: var(--primary);
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.navbar-btns-box #contact-btn:hover {
+  background: var(--primary-hover);
+}
+
+.navbar-mobile-btn {
+  background: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+  display: none;
+}
+
+.navbar-mobile-btn ion-icon {
+  font-size: 2.4rem;
+  background-color: var(--primary);
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  color: #fff;
+  transition: 0.2s ease;
+}
+
+.navbar-mobile-btn ion-icon:hover {
+  background-color: var(--primary-hover);
+}
+
+.navbar-mobile-btn #close-icon {
+  display: none;
+}
+
+.sidebar-bg-active {
+  background-color: #d73a322f;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  display: none;
+}
+
+/* Hero section  */
+.hero-section {
+  padding-top: 13rem;
+}
+
+.heading {
+  font-size: 10rem;
+  font-family: "Telma", cursive;
+  color: var(--text);
+}
+
+.hero-container {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.hero-text-box {
+  padding: 0 4rem;
+}
+
+.hero-text-box p {
+  max-width: 75%;
+  margin-bottom: 2rem;
+  line-height: 1.75;
+  color: var(--text);
+}
+
+.hero-img-box {
+  /* background-color: red; */
+}
+
+.hero-img-box .hero-img {
+  width: 75%;
+  height: auto;
+}
