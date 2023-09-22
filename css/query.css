@@ -72,6 +72,14 @@
     display: inline-block;
   }
 
+  .navbar-mobile-btn.sidebar-active #menu-icon {
+    display: none;
+  }
+
+  .navbar-mobile-btn.sidebar-active #close-icon {
+    display: inline-block;
+  }
+
   .sidebar-bg-active.sidebar-active {
     display: grid;
     animation: sidebarBg 1s ease;
