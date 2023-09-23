@@ -195,9 +195,7 @@
   }
 
   .el-1 {
-    top: 95%;
-    left: 69%;
-    width: 10%;
+    display: none;
   }
 }
 
@@ -229,8 +227,6 @@
 
 @media only screen and (max-width: 321px) {
   .el-1 {
-    top: 94%;
-    left: 69%;
-    width: 12%;
+    display: none;
   }
 }
