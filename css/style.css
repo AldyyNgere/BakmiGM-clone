@@ -129,6 +129,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  position: relative;
 }
 
 .hero-text-box {
@@ -142,11 +143,18 @@
   color: var(--text);
 }
 
-.hero-img-box {
-  /* background-color: red; */
-}
-
 .hero-img-box .hero-img {
   width: 75%;
   height: auto;
+}
+
+.hero-el {
+  width: 5%;
+  height: auto;
+  position: absolute;
+}
+
+.el-1 {
+  top: 58%;
+  left: 38%;
 }
